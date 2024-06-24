@@ -47,8 +47,8 @@ nav {
   }
 
 .container{
-    margin-top: 200px;
-    margin-left: 350px;
+    margin-top: 170px;
+    /* margin-left: 350px; */
 }
 
 div > p { 
@@ -88,26 +88,24 @@ div > p {
     border-radius: 12px;
     font-size: 12px;
   }
-/*   
-  button:hover {
-    background-color: #45a049;
-  }
-   */
-  
-.team-members {
-    display: flex;
-    gap: 50px;
-    justify-content: space-around; /* Distribute space evenly between team members */
-    margin-top: 20px;
-    margin-left: 350px;
-    width: 900px;
-    height: 190px;
+
+  body{
+    text-align: center;
 }
 
-.team-member {
-    flex: 1; /* Each team member section takes equal space */
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 10px;
-    background-color: rgba(255, 255, 255, 0.45);
+#contactForm {
+  max-width: 400px;
+  margin: 0 auto;
 }
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #ccc; 
+  background-color: rgba(255, 255, 255, 0.55);
+  text-align: center;
+}
+
+

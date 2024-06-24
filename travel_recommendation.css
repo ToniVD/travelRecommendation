@@ -39,7 +39,7 @@ nav {
   /* Basic CSS for the form elements */
   body {
     font-family: Gill Sans, sans-serif;
-    background-image: url('./background.jpg');
+    background-image: url('background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     
