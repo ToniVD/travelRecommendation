@@ -1,0 +1,163 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+  }
+
+
+nav {
+    background-color: rgba(255, 255, 255, 0.45);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* Basic CSS for the form elements */
+  body {
+    font-family: Gill Sans, sans-serif;
+    background-image: url('./background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    /* margin: 20px; */
+  }
+
+.container{
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+div > p { 
+    font-size: 20px;
+}
+
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    height: 25px;
+    padding: 5px;
+    border-radius: 12px;
+    border: 1px solid #ccc; 
+    text-align: center;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    font-size: 12px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+  }
+  
+.fa-twitter {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.fa-instagram {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.fa-youtube {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 12px;
+    text-decoration: none;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.socials {
+    margin-top:100px;
+    margin-left:50px;
+}
+
+ul {
+    list-style-type: none;
+  }
+  
+
+
+
+
+
+  
