@@ -47,8 +47,8 @@ nav {
   }
 
 .container{
-    margin-top: 200px;
-    margin-left: 350px;
+    margin-top: 180px;
+    margin-left: 330px;
 }
 
 div > p { 
@@ -154,10 +154,20 @@ div > p {
 ul {
     list-style-type: none;
   }
-  
 
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+}
 
+#recommendation{
+  margin-top: 35px;
+  margin-left: 10px;
+}
 
-
-  
